@@ -465,21 +465,28 @@ Config.MenuItems = {
 
 Config.JobInteractions = {
     ["ambulance"] = {
-        {
+         {
+            id = 'duty',
+            title = 'Toggle Duty',
+            icon = 'bell',
+            type = 'server',
+            event = 'QBCore:ToggleDuty',
+            shouldClose = false
+        }, {
             id = 'statuscheck',
             title = 'Check Health Status',
             icon = 'heartbeat',
             type = 'client',
             event = 'hospital:client:CheckStatus',
             shouldClose = true
-        },{
+        }, {
             id = 'revivep',
             title = 'Revive',
             icon = 'user-md',
             type = 'client',
             event = 'hospital:client:RevivePlayer',
             shouldClose = true
-        },{
+        }, {
             id = 'treatwounds',
             title = 'Heal wounds',
             icon = 'band-aid',
@@ -525,6 +532,13 @@ Config.JobInteractions = {
     },
     ["taxi"] = {
         {
+            id = 'duty',
+            title = 'Toggle Duty',
+            icon = 'bell',
+            type = 'server',
+            event = 'QBCore:ToggleDuty',
+            shouldClose = false
+        }, {
             id = 'togglemeter',
             title = 'Show/Hide Meter',
             icon = 'eye-slash',
@@ -549,6 +563,13 @@ Config.JobInteractions = {
     },
     ["tow"] = {
         {
+            id = 'duty',
+            title = 'Toggle Duty',
+            icon = 'bell',
+            type = 'server',
+            event = 'QBCore:ToggleDuty',
+            shouldClose = false
+        }, {
             id = 'togglenpc',
             title = 'Toggle NPC',
             icon = 'toggle-on',
@@ -566,6 +587,13 @@ Config.JobInteractions = {
     },
     ["mechanic"] = {
         {
+            id = 'duty',
+            title = 'Toggle Duty',
+            icon = 'bell',
+            type = 'server',
+            event = 'QBCore:ToggleDuty',
+            shouldClose = false
+        }, {
             id = 'towvehicle',
             title = 'Tow vehicle',
             icon = 'truck-pickup',
@@ -576,6 +604,13 @@ Config.JobInteractions = {
     },
     ["police"] = {
         {
+            id = 'duty',
+            title = 'Toggle Duty',
+            icon = 'bell',
+            type = 'server',
+            event = 'QBCore:ToggleDuty',
+            shouldClose = false
+        }, {
             id = 'emergencybutton',
             title = 'Emergency button',
             icon = 'bell',
